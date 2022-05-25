@@ -2,7 +2,7 @@ import random
 from joblib import Parallel, delayed
 
 conteudo = 0 # item que vai ser escrito
-quantidade = 1 # numero de arquivos a serem criados
+quantidade = 100 # numero de arquivos a serem criados
 multi = 100**100 # tamanho o item a ser escrito
 multiplicativo = 10**10 # escritas simultâneas
 escritas = 1 # vezes que cada item vai ser copiado no arquivo
